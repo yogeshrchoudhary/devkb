@@ -8,3 +8,8 @@ Knowledge base built during development
      ```
      git config --get remote.origin.url
      ```
+
+   * Push the local repository commits to remote repository
+     ```
+     git push origin master
+     ```
