@@ -23,3 +23,11 @@
   ```
   git push origin master
   ```
+* Similar to TFS shelve
+  ```
+  git stash
+  ```
+* Similar to TFS unshelve
+  ```
+  git stash pop
+  ```
