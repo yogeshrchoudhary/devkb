@@ -32,6 +32,15 @@
   ```
   git stash pop
   ```
+* Create a branch in the local repo
+  ```
+  git branch 'branch-name'
+  ```
+* Push a branch to the remote even if no changes are made to the local repo
+  ```
+  git push -u origin 'branch-name'
+  ```
+
 ## Useful links
 1. [Naming Git branches](https://stackoverflow.com/questions/273695/git-branch-naming-best-practices)
 2. [Azure DevOps Git](https://docs.microsoft.com/en-us/azure/devops/repos/git/?view=vsts)
