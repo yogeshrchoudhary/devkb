@@ -1,4 +1,5 @@
-# Handy Git commands
+# Personal Git knowledge base
+## Handy Git commands
 * To find the remote repository for a local one
   ```
   git config --get remote.origin.url
@@ -31,3 +32,6 @@
   ```
   git stash pop
   ```
+## Useful links
+1. [Naming Git branches](https://stackoverflow.com/questions/273695/git-branch-naming-best-practices)
+2. [Azure DevOps Git](https://docs.microsoft.com/en-us/azure/devops/repos/git/?view=vsts)
