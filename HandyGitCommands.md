@@ -40,6 +40,10 @@
   ```
   git push -u origin 'branch-name'
   ```
+* Undo all changes locally
+  ```
+  git reset --hard
+  ```
 
 ## Useful links
 1. [Naming Git branches](https://stackoverflow.com/questions/273695/git-branch-naming-best-practices)
