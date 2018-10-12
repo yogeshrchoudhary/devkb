@@ -45,6 +45,7 @@
   git reset --hard
   ```
 
-## Useful links
-1. [Naming Git branches](https://stackoverflow.com/questions/273695/git-branch-naming-best-practices)
-2. [Azure DevOps Git](https://docs.microsoft.com/en-us/azure/devops/repos/git/?view=vsts)
+## Useful references
+1. Git Labs documentation (https://git-scm.com/docs)
+2. [Naming Git branches](https://stackoverflow.com/questions/273695/git-branch-naming-best-practices)
+3. [Azure DevOps Git](https://docs.microsoft.com/en-us/azure/devops/repos/git/?view=vsts)
