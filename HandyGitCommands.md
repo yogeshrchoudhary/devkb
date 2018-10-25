@@ -44,6 +44,15 @@
   ```
   git reset --hard
   ```
+* View history of commits
+  ```
+  git log
+  ```
+  This should give the detailed history along with the author, datetime of the commit.
+  To view the shorter history version use,
+  ```
+  git log --oneline
+  ```
 
 ## Useful references
 1. [Git Labs documentation](https://git-scm.com/docs)
