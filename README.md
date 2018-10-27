@@ -4,4 +4,4 @@ Knowledge base built during development
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * [Handy Git commands](../master/HandyGitCommands.md)
 * [AngularJs learnings](../../wiki/AngularJS-learnings)
-* [To investigate](../../wiki/To-research)
+* [To investigate](../../wiki/Learning-Todos)
