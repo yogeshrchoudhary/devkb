@@ -53,6 +53,16 @@
   ```
   git log --oneline
   ```
+* Merge a different branch to current branch
+  ```
+  git merge 'remote-branch-name'
+  ```
+* Compare 2 branches
+  ```
+  git diff branch1..branch2
+  ```
+  Compare same file in 2 branches
+  git diff branch1..branch2 'filename'
 
 ## Useful references
 1. [Git Labs documentation](https://git-scm.com/docs)
