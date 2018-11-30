@@ -42,11 +42,11 @@
   git stash pop
   ```
 * Branching
- * Create a branch in the local repo
+  * Create a branch in the local repo
   ```
   git branch 'branch-name'
   ```
- * Display list of branches
+  * Display list of branches
   ```
   git branch [-r] [-v] [--sort=[-]committerdate]
   ```
