@@ -25,10 +25,19 @@
   git push origin master
   ```
 * Similar to TFS shelve
+  * To move your temporary code to repository use,
   ```
   git stash
   ```
-* Similar to TFS unshelve
+  * Display list of modifications done
+  ```
+  git stash list
+  ```
+  * Display what modifications were done in the last stash
+  ```
+  git stash show
+  ```
+  * To pull back you temporary code from repository (i.e. TFS unshelve)
   ```
   git stash pop
   ```
