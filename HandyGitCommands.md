@@ -67,9 +67,14 @@
   ```
   git diff branch1..branch2 'filename'
   ```
-* Undo all changes locally
+* Undoing changes
+  * Undo all changes locally
   ```
   git reset --hard
+  ```
+  * Undo changes to a specific file locally i.e. set it back to the HEAD at the remote
+  ```
+  git checkout @ --'filename'
   ```
 * View history of commits
   ```
