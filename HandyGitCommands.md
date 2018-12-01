@@ -1,4 +1,4 @@
-# Personal Git knowledge base
+# Personal Git Tips
 ## Handy Git commands
 * To find the remote repository for a local one
   ```
@@ -29,17 +29,31 @@
   ```
   git stash
   ```
+  To move your temporary code to repository and provide a friendly name to retrieve it back, use,
+  ```
+  git stash save "stash name"
+  ```
   * Display list of modifications done
   ```
   git stash list
   ```
+  This displays all stashes along with the indexes where they were stashed.
   * Display what modifications were done in the last stash
   ```
   git stash show
   ```
-  * To pull back you temporary code from repository (i.e. TFS unshelve)
+  * To pull back you last temporary code from repository (i.e. TFS unshelve)
   ```
   git stash pop
+  ```
+  To pull back code stashed away at a specific stash index use
+  ```
+  git stash pop stash@N
+  ```
+  This will remove the stashed code at index N.
+  To pull back code stashed away at a specific stash index, but still keep the stashed code in the repo, use
+  ```
+  git stash apply stash@N
   ```
 * Branching
   * Create a branch in the local repo
@@ -67,6 +81,7 @@
   ```
   git diff branch1..branch2 'filename'
   ```
+  To understand the format of _diff_ output see the StackOverflow link [here](https://stackoverflow.com/questions/2529441/how-to-read-the-output-from-git-diff).
 * Undoing changes
   * Undo all changes locally
   ```
