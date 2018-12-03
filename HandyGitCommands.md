@@ -65,19 +65,29 @@
   git branch [-r] [-v] [--sort=[-]committerdate]
   ```
   Without any options _git branch_ will display list of local branches. _-r_ displays remote branches. _-v_ displays branches sorted on latest commits. _--sort=committerdate_ displays in the ASC order of commits. To display in the DESC order of commits use _-committerdate_.
- * Push a branch to the remote even if no changes are made to the local repo
+  * Delete a branch
+  To delete a branch on the remote use
+  ```
+  git push --delete 'remote name' 'branch name'
+  ```
+  Note _remote name_ would mostly be _origin_.
+  To delete a branch locally, use
+  ```
+  git branch -d 'branch name'
+  ```
+  * Push a branch to the remote even if no changes are made to the local repo
   ```
   git push -u origin 'branch-name'
   ```
- * Merge a different branch to current branch
+  * Merge a different branch to current branch
   ```
   git merge 'remote-branch-name'
   ```
- * Compare 2 branches
+  * Compare 2 branches
   ```
   git diff branch1..branch2
   ```
-  Compare same file in 2 branches
+   Compare same file in 2 branches
   ```
   git diff branch1..branch2 'filename'
   ```
