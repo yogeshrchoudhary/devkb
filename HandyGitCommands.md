@@ -86,12 +86,17 @@
   * Compare 2 branches
   ```
   git diff branch1..branch2
-  ```
+  ``` 
    Compare same file in 2 branches
   ```
   git diff branch1..branch2 'filename'
   ```
   To understand the format of _diff_ output see the StackOverflow link [here](https://stackoverflow.com/questions/2529441/how-to-read-the-output-from-git-diff).
+   
+   Compare which files have changes in 2 branches
+  ```
+  git diff --name-status branch1..branch2
+  ```
 * Undoing changes
   * Undo all changes locally
   ```
