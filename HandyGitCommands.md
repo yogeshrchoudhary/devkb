@@ -42,6 +42,10 @@
   ```
   git stash show
   ```
+  * Display what modifications were done in a specific stash
+  ```
+  git stash show -p stash@{stash-number}
+  ```
   * To pull back you last temporary code from repository (i.e. TFS unshelve)
   ```
   git stash pop
