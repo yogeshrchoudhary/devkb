@@ -119,6 +119,10 @@
   ```
   git log --oneline
   ```
+* View branch tree
+  ```
+  git log --graph --oneline --all
+  ```
 
 ## Useful references
 1. [Git Labs documentation](https://git-scm.com/docs)
