@@ -1,7 +1,9 @@
 # My Development Knowledge Base
 Knowledge base built during development
 
-* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* Markdown
+  - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+  - [Markdown Emojis](https://www.webfx.com/tools/emoji-cheat-sheet/)
 * [Handy Git commands](../master/HandyGitCommands.md)
 * [AngularJs learnings](../../wiki/AngularJS-learnings)
 * [Ionic learnings](../../wiki/Ionic-learnings)
