@@ -7,5 +7,6 @@ Knowledge base built during development
 * [Handy Git commands](../master/HandyGitCommands.md)
 * [AngularJs learnings](../../wiki/AngularJS-learnings)
 * [Ionic learnings](../../wiki/Ionic-learnings)
+* [Docker and Kubernetes learnings](../../wiki/Docker-and-Kubernetes)
 * [Miscellaneous gotchas](../../wiki/Miscellaneous)
 * [To investigate](../../wiki/Learning-Todos)
