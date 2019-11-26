@@ -4,7 +4,10 @@
   ```
   git config --get remote.origin.url
   ```
-
+* Push to a new remote repository from local repository
+```
+git branch --set-upstream-to=origin/master master
+```
 * Merge changes from remote repository to local repository
   ```
   git pull
