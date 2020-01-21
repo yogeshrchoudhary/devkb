@@ -9,6 +9,14 @@
 git remote add origin <remote-repository-url>
 git push -u origin --all
 ```
+* Switch remote URL
+```
+git remote set-url origin https://MyTasks4PE@dev.azure.com/MyTasks4PE/PEDashboard/_git/IonicConference
+```
+* Verify remote URL
+```
+git remote -v
+```
 * Merge changes from remote repository to local repository
   ```
   git pull
