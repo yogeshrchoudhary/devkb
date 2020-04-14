@@ -97,7 +97,7 @@ git remote -v
   ```
   * Merge a different branch to current branch
   ```
-  git merge 'remote-branch-name'
+  git merge 'branch-name'
   ```
   * Compare 2 branches
   ```
