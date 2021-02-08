@@ -4,6 +4,10 @@
   ```
   git config --get remote.origin.url
   ```
+* To remove a remote repository from a local one
+```
+git remote remove origin
+```
 * Push an existing repository from local
 ```
 git remote add origin <remote-repository-url>
