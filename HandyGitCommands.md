@@ -118,6 +118,13 @@ git remote -v
   git diff --name-status branch1..branch2
   ```
   Renaming a branch, See [here](https://linuxize.com/post/how-to-rename-local-and-remote-git-branch/)
+  
+  Checkout all files from a specific commit
+  ```
+  git clone <repo-url>
+  git checkout <commit-sha>
+  ```
+  
 * Undoing changes
   * Undo all changes locally
   ```
