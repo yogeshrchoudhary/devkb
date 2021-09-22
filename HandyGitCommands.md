@@ -1,3 +1,4 @@
+
 # Personal Git Tips
 ## Handy Git commands
 * To find the remote repository for a local one
@@ -75,7 +76,7 @@ git remote -v
   ```
   git stash apply stash@N
   ```
-* Branching
+### Branching
   * Create a branch in the local repo
   ```
   git branch 'branch-name'
@@ -119,6 +120,7 @@ git remote -v
   ```
   Renaming a branch, See [here](https://linuxize.com/post/how-to-rename-local-and-remote-git-branch/)
   
+### Few more commands
   Checkout all files from a specific commit
   ```
   git clone <repo-url>
