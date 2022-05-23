@@ -76,6 +76,14 @@ git remote -v
   ```
   git stash apply stash@N
   ```
+  * Clone a repo using a different user name
+  ```
+  git clone https://username@github.com/username/repository.git
+  ```
+  Using a password
+  ```
+  git clone https://username:password@github.com/username/repository.git
+  ```
 ### Branching
   * Create a branch in the local repo
   ```
