@@ -76,7 +76,7 @@ git remote -v
   ```
   git stash apply stash@N
   ```
-  * Clone a repo using a different user name
+* Clone a repo using a different user name
   ```
   git clone https://username@github.com/username/repository.git
   ```
